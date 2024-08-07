@@ -5,7 +5,7 @@ var Snake = (function () {
 
   var intervalID;
   
-  var tileCount = 60; // Updated grid size
+  var tileCount = 40; // Updated grid size
   var gridSize = 400 / tileCount;
 
   const INITIAL_PLAYER = { x: Math.floor(tileCount / 2), y: Math.floor(tileCount / 2) };
